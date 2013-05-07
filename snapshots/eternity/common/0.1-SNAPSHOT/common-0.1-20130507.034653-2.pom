@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>eternity</groupId>
+        <artifactId>common-build</artifactId>
+        <version>0.1-SNAPSHOT</version>
+        <relativePath>common-build/pom.xml</relativePath>
+    </parent>
+    <artifactId>common</artifactId>
+    <packaging>pom</packaging>
+    <name>Reactor project of all common modules</name>
+    <description></description>
+    <url></url>
+    <modules>
+        <module>common-build</module>
+        <module>common-testing</module>
+        <module>common-server</module>
+        <module>common-web</module>
+        <module>common-persistence</module>
+    </modules>
+    <ciManagement>
+        <system>Bamboo</system>
+        <url>${common.ciManagement.url}</url>
+    </ciManagement>
+    <issueManagement>
+        <system>JIRA</system>
+        <url>${common.issueManagement.url}</url>
+    </issueManagement>
+    <scm>
+        <connection>${common.scm.connection}</connection>
+        <developerConnection>${common.scm.developerConnection}</developerConnection>
+        <url>${common.scm.url}</url>
+        <tag>${common.scm.tag}</tag>
+    </scm>
+    <organization></organization>
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+            <comments>A free of charge, business-friendly, open-source software license</comments>
+        </license>
+    </licenses>
+    <inceptionYear>2012</inceptionYear>
+    <developers>
+        <developer>
+            <id>1</id>
+            <name>Michał Michaluk</name>
+            <email>michal.michaluk@gmail.com</email>
+            <timezone>2</timezone>
+        </developer>
+    </developers>
+    <contributors></contributors>
+</project>
