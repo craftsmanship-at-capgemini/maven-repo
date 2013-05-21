@@ -3,10 +3,11 @@
   <groupId>craftsmanship-at-capgemini</groupId>
   <artifactId>clean-javaee-ear</artifactId>
   <versioning>
-    <release>1.0-RC1</release>
+    <release>1.0.0</release>
     <versions>
       <version>1.0-RC1</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20130507072907</lastUpdated>
+    <lastUpdated>20130521055600</lastUpdated>
   </versioning>
 </metadata>
